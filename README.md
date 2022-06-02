@@ -1,4 +1,4 @@
-# multiclassification-text-sentiment
+# Multiclassification of text forum
 
 ### Summary
 This text mining project is an adaption of multiple methods discussed in the text mining lectures. The aim of the project is to classify sentences into one of 8 emotional categories e.g. Anger, Fear, Joy etc. It is a simple implementation, with applications of several text classification methods and particularly the following: 
@@ -16,12 +16,12 @@ Comparing the accuracy and f1 scores of the 20 models I tried, the Count Vectori
 The Confusion Matrix in Fig 2 for SVC using balanced data, shows that this model predicts the emotions of the sentences quite well, with Disgust least well predicted. In every case except Anger, using the balanced data was a better predictor than using unbalanced data.
 
 <img width="270" alt="Screenshot 2022-06-02 at 11 32 16" src="https://user-images.githubusercontent.com/1595062/171611333-d2c8701d-f808-4611-aa07-ba8ab4967b51.png">
-***Fig 1: Results tables balance training sets***
+Fig 1: Results tables balance training sets
 <br/><br/>
 
 
 <img width="607" alt="Screenshot 2022-06-02 at 11 26 33" src="https://user-images.githubusercontent.com/1595062/171611425-bf45a1d5-6c47-4434-af28-434c45b2787c.png">
-***Fig 2: Confusion matrix of CountVec + SVC in a balanced training set***
+Fig 2: Confusion matrix of CountVec + SVC in a balanced training set
 
   
 ### Conclusions
