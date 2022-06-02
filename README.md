@@ -19,6 +19,7 @@ The Confusion Matrix in Fig 2 for SVC using balanced data, shows that this model
 <img width="270" alt="Screenshot 2022-06-02 at 11 32 16" src="https://user-images.githubusercontent.com/1595062/171611333-d2c8701d-f808-4611-aa07-ba8ab4967b51.png">
 Fig 1: Results tables balance training sets
 
+</br>
 <img width="607" alt="Screenshot 2022-06-02 at 11 26 33" src="https://user-images.githubusercontent.com/1595062/171611425-bf45a1d5-6c47-4434-af28-434c45b2787c.png">
 
 Fig 2: Confusion matrix of CountVec + SVC in a balanced training set
