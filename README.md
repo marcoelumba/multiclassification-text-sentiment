@@ -1,14 +1,12 @@
 # Multiclassification of text forum
 
 ### Summary
-This text mining project is an adaption of multiple methods discussed in the text mining lectures. The aim of the project is to classify sentences into one of 8 emotional categories e.g. Anger, Fear, Joy etc. It is a simple implementation, with applications of several text classification methods and particularly the following: 
+This text mining project is an adaption of multiple methods in the text mining. The aim is to classify sentences into one of 8 emotional categories e.g. Anger, Fear, Joy etc. It is a simple implementation, with applications of several text classification methods and particularly the following: 
 
 * Data cleaning methods
 * Count vectorisation
 * Doc2Vec
 * Word2Vec
-
-Due to the size of the database, I have scoped this project such that it is able to train the dataset with predefined word embedding models rather than having to rely on using TensorFlow or keras in the implementation. In this document I will discuss how I implemented the different class codes, what are the methods used and the workflow as mentioned in the above list. Finally I will discuss the results of the experiment.
 
 ### Experimental result
 Comparing the accuracy and f1 scores of the 20 models I tried, the Count Vectorizing with Support Vector Classification and linear kernel was the best performing model. Taking 1000 random samples in each emotion, I had the result in Fig 1. The top performing model did not change.
